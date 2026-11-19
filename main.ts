@@ -14,7 +14,7 @@ import { crc32, deflateSync } from 'node:zlib';
 // All date-checked to 2026-11-18
 // ============================================================
 const REGIONS = [
-  { id: 'americas', name: 'AMERICAS', x: 80, y: 420, color: 0x1B9E77, stories: [
+  { id: 'americas', name: 'AMERICAS', x: 80, y: 420, color: 0x1B9E78, stories: [ // revised color
     'NSA classified network NSANet suffers "temporary degradation" outage since Tuesday',
     'Apple confirms widespread iPhone service outages: Apple Pay, iCloud affected',
     'Gmail users report disruptions; Google says not broad internal issue',
@@ -33,13 +33,13 @@ const REGIONS = [
     'Spain floods: Valencia recovery efforts continue, 200+ dead',
   ]},
   { id: 'meast', name: 'MIDDLE EAST', x: 580, y: 280, color: 0x7570B3, stories: [
-    'Iran strikes Kuwait\'s Ali Al Salem Air Base (hosts US forces) after US hits Qeshm Island',
+    "Iran strikes Kuwait's Ali Al Salem Air Base (hosts US forces) after US hits Qeshm Island",
     'Houthis launch 5 drones at Saudi East-West pipeline pumping stations near Riyadh',
     'Trump Board of Peace: Israel & Hamas failing ceasefire commitments (2nd UNSC report)',
     'Israeli Knesset elects Matan Kahana as Speaker, blow to Netanyahu',
-    'Guardian: IDF uploaded 3.5M Palestinian photos to Amazon Rekognition for facial recognition',
+    "Guardian: IDF uploaded 3.5M Palestinian photos to Amazon Rekognition for facial recognition",
     'Settlers kill 72-year-old Palestinian grandmother Fadda Mohammed Fheidat near Jericho',
-    'UN: Yemen\'s Taiz health crisis worsening — water at 8% of needs, cholera/dengue surging',
+    "UN: Yemen's Taiz health crisis worsening — water at 8% of needs, cholera/dengue surging",
   ]},
   { id: 'africa', name: 'AFRICA', x: 480, y: 420, color: 0xE7298A, stories: [
     'Ethiopia & Eritrea amass forces on shared border, within striking distance',
@@ -72,7 +72,7 @@ const REGIONS = [
     'Voyager 1 reaches 1 light-day from Earth (16B mi / 26B km) — 10:16 GMT 2026-11-18',
     'NASA confirms Voyager 1 milestone: first human-made object at light-day distance',
     'Ukraine strikes 2 Russian oil refineries in southern Russia with domestic weapons',
-    'El Salvador president confirms demolition of Haitian gang leader Jeff\'s home',
+    "El Salvador president confirms demolition of Haitian gang leader Jeff's home",
     'Top UN court to deliver Myanmar genocide judgment Thursday (Rohingya case)',
     'Companies dropping climate incentives from executive pay (Seattle Times)',
     'IAEA: North Korea expanding original uranium enrichment at Yongbyon',
