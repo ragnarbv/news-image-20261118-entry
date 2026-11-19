@@ -1,0 +1,12 @@
+{
+  "name": "news-image-20261118",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deterministic infographic generator for 18 November 2026 world news — stdlib only",
+  "main": "main.ts",
+  "scripts": {
+    "build": "node main.ts"
+  },
+  "keywords": ["make.fun", "infographic", "deterministic", "news"],
+  "license": "MIT"
+}
