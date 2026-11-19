@@ -50,7 +50,7 @@ function generatePixels(): Uint8Array {
       const g = (y * 255) / (HEIGHT - 1);
       const b = ((x + y) * 127) / (WIDTH + HEIGHT - 2);
       // Add a subtle checkerboard for visual interest
-      const checker = ((x >> 4) + (y >> 4)) & 1 ? 60 : 0;
+      const checker = ((x >> 4) + (y >> 4)) & 1 ? 40 : 0;
       pixels[idx] = Math.min(255, Math.round(r) + checker);
       pixels[idx + 1] = Math.min(255, Math.round(g) + checker);
       pixels[idx + 2] = Math.min(255, Math.round(b) + checker);
